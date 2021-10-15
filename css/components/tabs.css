@@ -1,0 +1,15 @@
+.tabs {
+  display: flex;
+}
+
+.tabs h3:first-child {
+  margin: 0;
+  border-bottom: 2px solid var(--primary-blue-color);
+  margin-right: 24px;
+  padding-bottom: 8px;
+}
+
+.tabs h3:last-child {
+  margin: 0;
+  color: var(--gray-font-color);
+}

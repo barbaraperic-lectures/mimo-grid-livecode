@@ -1,0 +1,45 @@
+.card {
+  width: 320px;
+  height: 70px;
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 0 10px rgba(0,0,0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+}
+
+.card-line {
+  height: 80px;
+  width: 3px;
+  background-color: var(--gray-font-color);
+}
+
+.card-status {
+  background-color: var(--secondary-orange-color);
+  display: inline-block;
+  border-radius: 50%;
+  height: 24px;
+  width: 24px;
+  
+}
+
+.card-status p {
+  margin: 0;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+
+
+/*  */
+
+@media (max-width: 1200px) {
+  .card-container {
+    grid-template-columns: 1fr;
+  }
+}
